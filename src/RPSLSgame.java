@@ -35,7 +35,7 @@ public class RPSLSgame {
 
 			System.out.println("ENTER YOUR GESTURE(1- Rock, 2-Paper, 3- Scissors, 4-LIZARD, 5-SPOCK, 0-Exit) :");
 			gesture = input.nextInt();
-
+			// if gesture is equal to 1 then do this
 			if (gesture == 1) {
 				System.out.println("You have selected Rock");
 				Game++;
